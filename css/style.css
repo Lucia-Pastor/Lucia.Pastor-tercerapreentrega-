@@ -1,0 +1,337 @@
+/* media queries */
+p {
+  font-size: 50px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* mobile */
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: cadetblue;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+/* tablet */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  body {
+    background-color: tomato;
+  }
+}
+/* desktop */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: cornflowerblue;
+  }
+}
+.header-container {
+  background-color: rgb(53, 87, 100);
+  color: rgb(226, 220, 200);
+  font-size: 20px;
+  height: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+}
+.header-container .contenedor-logo {
+  display: flex;
+  align-items: flex-start;
+}
+.header-container .contenedor-logo .logo {
+  width: 60px;
+  height: 30px;
+}
+.header-container .nav {
+  width: 50%;
+  padding-right: 20px;
+}
+.header-container .nav .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container .nav .menu a {
+  color: rgb(226, 220, 200);
+  text-decoration: none;
+}
+
+.footer-container {
+  color: rgb(226, 220, 200);
+  background-color: rgb(53, 87, 100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.footer-container .logo .logo3 {
+  width: 60px;
+  height: 30px;
+}
+.footer-container .logo .nav-footer {
+  width: 30%;
+}
+.footer-container .logo .nav-footer .lista-footer {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-container1 {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.photo {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-container2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.photo-container2 .encabezado-contable {
+  font-family: "Karla", sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+  padding: 50px;
+  margin: 15px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.33);
+}
+.photo-container2 .foto-contable {
+  display: flex;
+  justify-content: center;
+}
+.photo-container2 .imagen-estudio {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+section .encabezado-contable2 {
+  font-family: "Karla", sans-serif;
+  font-size: 19px;
+  color: rgb(171, 160, 160);
+  padding: 5px;
+  margin: 10px;
+}
+section .parrafo-contable {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.encabezado-contable {
+  font-family: "Karla", sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+  padding: 50px;
+  margin: 15px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.33);
+}
+
+.contenedor-columnas {
+  display: grid;
+  margin: 5px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+}
+.contenedor-columnas div .fuente {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: rgb(189, 189, 189);
+  padding: 5px;
+  margin: 3px;
+}
+.contenedor-columnas div .parrafo-contable {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.lista1 {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.foto.servico-container {
+  display: flex;
+  justify-content: center;
+}
+.foto.servico-container .foto-servicio {
+  display: flex;
+  padding: 10px;
+}
+
+.contenedor-columnas1 {
+  display: grid;
+  margin: 5px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  row-gap: 40px;
+}
+.contenedor-columnas1 div .lista1 {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.contenedor-columnas1 div .foto-servicio {
+  display: flex;
+  padding: 10px;
+}
+.contenedor-columnas1 div .fuente-lista1 {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+.contenedor-columnas1 div .lista1 {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.contenedor-columnas1 div .foto-servicio {
+  display: flex;
+  padding: 10px;
+}
+.contenedor-columnas1 div .fuente-lista1 {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+.contenedor-columnas1 div .lista1 {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.contenedor-columnas1 div .foto-servicio {
+  display: flex;
+  padding: 10px;
+}
+.contenedor-columnas1 div .fuente-lista1 {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+.contenedor-columnas1 div .lista1 {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.contenedor-columnas1 div .foto-servicio {
+  display: flex;
+  padding: 10px;
+}
+.contenedor-columnas1 div .fuente-lista1 {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+
+.section-nosotros {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 1000px;
+}
+.section-nosotros .foto-nosotros {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.section-nosotros .contenedor-texto {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.section-nosotros .contenedor-texto .encabezado-nosotros {
+  font-family: "Karla", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+.section-nosotros .contenedor-texto .parrafo-nosotros {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.contenedor-texto {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.contenedor-texto .encabezado-nosotros {
+  font-family: "Karla", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+.contenedor-texto .parrafo-nosotros {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  line-height: 25px;
+}
+
+section .titulo-contacto {
+  font-family: "Karla", sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+section .formulario.contacto ul .input[type=submit] {
+  width: 150px;
+  height: 40px;
+}
+section .formulario.contacto ul .input[type=submit] #submit {
+  display: flex;
+  justify-content: center;
+}
+section .formulario.contacto ul .input[type=submit] #submit .input[type=text] .input[type=email] .input[type=number] {
+  width: 300px;
+  height: 40px;
+  font: size 16px;
+}
+section .formulario.contacto ul .input[type=submit] #submit .input[type=text] .input[type=email] .input[type=number] .textarea {
+  resize: none;
+  width: 300px;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+/*# sourceMappingURL=style.css.map */

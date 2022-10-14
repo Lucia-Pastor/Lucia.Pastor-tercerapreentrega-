@@ -1,0 +1,129 @@
+.lista1 {
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+
+.foto.servico-container {
+    display: flex;
+    justify-content: center;
+
+    .foto-servicio {
+        display: flex;
+        padding: 10px;
+    }
+
+}
+
+.contenedor-columnas1 {
+    display: grid;
+    margin: 5px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 40px;
+
+    div {
+        .lista1 {
+            padding: 20px;
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            color: black;
+        }
+
+        .foto-servicio {
+            display: flex;
+            padding: 10px;
+        }
+
+        .fuente-lista1 {
+            font-family: 'Karla',
+                sans-serif;
+            font-size: 15px;
+            color: black;
+            padding: 20px;
+        }
+    }
+
+    div {
+        .lista1 {
+            padding: 20px;
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            color: black;
+
+        }
+
+        .foto-servicio {
+            display: flex;
+            padding: 10px;
+
+        }
+
+        .fuente-lista1 {
+            font-family: 'Karla',
+                sans-serif;
+            font-size: 15px;
+            color: black;
+            padding: 20px;
+
+
+        }
+    }
+
+    div {
+        .lista1 {
+            padding: 20px;
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            color: black;
+
+        }
+
+        .foto-servicio {
+            display: flex;
+            padding: 10px;
+
+        }
+
+        .fuente-lista1 {
+            font-family: 'Karla',
+                sans-serif;
+            font-size: 15px;
+            color: black;
+            padding: 20px;
+
+
+        }
+    }
+
+    div {
+        .lista1 {
+            padding: 20px;
+            font-family: 'Karla', sans-serif;
+            font-size: 18px;
+            color: black;
+
+        }
+
+        .foto-servicio {
+            display: flex;
+            padding: 10px;
+
+        }
+
+        .fuente-lista1 {
+            font-family: 'Karla',
+                sans-serif;
+            font-size: 15px;
+            color: black;
+            padding: 20px;
+
+
+        }
+    }
+}
